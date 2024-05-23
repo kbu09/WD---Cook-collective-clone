@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "A", "MP", sans-serif;
+    cursor: url("IMG/red.jpg"), auto;
+}
+
+a:hover {
+    cursor: url("IMG/cursor-border.svg"), auto;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #ff490d;
+}
+
+.n1bar {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 20px;
+    z-index: 10;
+}
+
+.links a {
+    margin-right: 35px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.n2bar {
+    display: none;
+}
+
+.model_one {
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.model_one a {
+    height: 90px;
+    text-decoration: none;
+    color: #ff490d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.m {
+    display: none;
+}
+
+.mshared {
+    display: none;
+}
+
+.test {
+    height: 30px;
+    width: 190px;
+    cursor: url("IMG/cursor-border.svg"), auto;
+    background-image: url("IMG/cc-horizontal.svg");
+    background-repeat: no-repeat;
+}
+
+.cookimg {
+    height: 30px;
+    width: 190px;
+    background-image: url("IMG/cc-horizontal-white.svg");
+    background-repeat: no-repeat;
+    cursor: url("IMG/cursor-border.svg"), auto;
+}
+
+#mtour {
+    text-align: center;
+    width: 90px;
+    padding: 9px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #ff490d;
+    color: white;
+}
+
+.skbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 750px;
+    background-color: #FFFAF5;
+}
+
+.mainimg {
+    height: 750px;
+    overflow: hidden;
+
+}
+
+.mimg {
+    height: 780px;
+    width: 720Px;
+    object-fit: fill;
+    object-position: center;
+}
+
+.shared {
+    color: #ff490d;
+    position: relative;
+}
+
+.kitchen {
+    margin-top: 220px;
+    font-size: 280%;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.arrow {
+    margin-top: 50px;
+    color: #e46511;
+}
+
+.whoweare {
+    height: auto;
+    width: 100%;
+    background-color: #FFFAF5;
+    overflow: hidden;
+}
+
+.textbox {
+    height: max-content;
+    width: 500px;
+    margin-top: 190px;
+}
+
+.textured {
+    font-size: xx-large;
+    height: max-content;
+    width: min-content;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 8px;
+}
+
+.text1 {
+    font-size: large;
+}
+
+.leaf {
+    height: 560px;
+    width: fit-content;
+    margin-top: 200px;
+}
+
+.chilli {
+    object-position: center;
+    object-fit: cover;
+    height: 585px;
+    width: min-content;
+}
+
+.offer {
+    height: max-content;
+    text-align: center;
+    padding: 25px;
+}
+
+.offer1 {
+    font-size: 25px;
+    height: max-content;
+    width: auto;
+    padding-top: 55px;
+}
+
+.offer2 {
+    font-size: 18px;
+    line-height: 2.2
+}
+
+span {
+    color: #ff490d;
+    font-weight: 500;
+}
+
+.offer .inq {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #FFFAF5;
+    color: #ff490d;
+    font-size: medium;
+    border: 1px solid black;
+}
+
+.kk {
+    padding: 50px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 70px;
+}
+
+.location {
+    text-wrap: wrap;
+    text-align: center;
+    height: min-content;
+    width: 350px;
+    font-size: 18px;
+}
+
+.textred {
+    color: #ff490d;
+    font-size: 20px;
+}
+
+.need {
+    background-color: #ff490d;
+    border-radius: 50px;
+    font-size: 18px;
+    width: max-content;
+}
+
+.need a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bnr {
+    background-image: url("IMG/cookcollective-sep-background-1800x854.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: min-content;
+    margin-top: 100px;
+}
+
+.bnrimg {
+    width: 100%;
+    height: 350px;
+}
+
+.partner {
+    height: max-content;
+    margin-top: 100px;
+}
+
+.love {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.Meet {
+    text-decoration: none;
+    border-radius: 30px;
+    width: max-content;
+    border: 1px solid #ff490d;
+}
+
+.Meet a {
+    text-decoration: none;
+    color: #ff490d;
+    width: 100%;
+}
+
+.ptn1 {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.location1 {
+    width: 400px;
+    height: min-content;
+}
+
+.dulcinea {
+    height: 100px;
+    width: 150px;
+}
+
+.arrow3 {
+    width: max-content;
+    height: max-content;
+}
+
+.apply {
+    height: max-content;
+    background-color: #FFFAF5;
+    padding: 45px;
+}
+
+.step {
+    margin-top: 80px;
+    width: max-content;
+    height: max-content;
+}
+
+.apply1 {
+    font-size: 33px;
+}
+
+ol {
+    list-style: none;
+}
+
+.fill {
+    font-size: 25px;
+}
+
+.step ol {
+    font-size: 18px;
+    position: relative;
+    right: 35px;
+}
+
+.num1 {
+    padding: 5px;
+    margin-right: 25px;
+    border-radius: 50%;
+    border: 1px solid #e46511;
+}
+
+span:hover {
+    background-color: #f26a0fe9;
+    color: white;
+}
+
+.ttour {
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e46511;
+    background-color: #e46511;
+    border-radius: 20px;
+}
+
+.step a {
+    color: white;
+    text-decoration: none;
+}
+
+.vegi {
+    background-image: url("IMG/3-923x1200.jpg");
+    width: 500px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.booktour {
+    font-size: 20px;
+}
+
+.formbox {
+    padding: 90px;
+    height: max-content;
+}
+
+.fbox {
+    height: max-content;
+    padding: 120px;
+}
+
+.fname1 {
+    width: 100%;
+    height: 45px;
+    border: #e46511 2px solid;
+    border-radius: 10px;
+}
+
+.wfm {
+    width: 48%;
+    height: 45px;
+    border: #e46511 2px solid;
+    border-radius: 10px;
+}
+
+.Describe {
+    width: 100%;
+    height: 100px;
+    border: #e46511 2px solid;
+    border-radius: 10px;
+}
+
+.checkboxx {
+    color: #e46511;
+    word-break: break-all;
+}
+
+.request {
+    word-break: break-all;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    border: #e46511 1px solid;
+    background-color: #ff4a0dd8;
+}
+
+::placeholder,
+option,
+select {
+    color: #e46511;
+}
+
+.foot {
+    background-color: rgba(0, 0, 0, 0.881);
+    color: white;
+    height: max-content;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.signs {
+    width: 455px;
+    height: max-content;
+}
+
+.sends {
+    background-color: #e46511;
+    color: white;
+    height: 45px;
+    width: 45px;
+}
+
+.logos {
+    width: 80px;
+    height: max-content;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+.add1 {
+    padding: 15px;
+    width: max-content;
+    height: max-content;
+
+}
+
+.Design {
+    margin-top: 180px;
+}
